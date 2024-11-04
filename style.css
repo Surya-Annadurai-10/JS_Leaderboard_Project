@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto" , sans-serif;
+}
+
+body{
+    background-color: #0F133E;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    display: grid;
+    place-items: center;
+}
+
+header h1{
+    color: #Fff;
+    font-size: 4rem;
+}
+
+.input-boxes{
+    width: 70%;
+    height: 10vh;
+    background-color: #1179CE;
+    margin: auto;
+}
+
+.fname-box,
+.lname-box,
+.select-box,
+.score-box,
+.add-box{
+    width: 18.4%;
+    height: 60%;
+    /* background-color: yellowgreen; */
+}
+
+.input-boxes{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.fname-box input,
+.add-box button,
+.lname-box input,
+.score-box input,
+.select-box select{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.core-box{
+    width: 70% ;
+    height: 20vh;
+/* background-color: yellow; */
+    margin: auto;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    color: black;
+}
+
+main .main-box{
+    width: 95%;
+    height: 65%;
+   
+
+    background-color: #FFF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box > div{
+    width: 25%;
+    /* background-color: red; */
+    height: 100%;
+    /* border:1px solid black; */
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    /* color: white; */
+}
+
+.data1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:cyan
+
+}
+
+.place {
+    font-size: 5rem;
+}
+
+.name{
+    text-align: center;
+}
+
+.name1{
+    font-weight: bold;
+}
+
+#date{
+    display: inline-block;
+    padding: 0.5rem;
+    border: 1px solid grey;
+    background-color: rgb(181, 181, 181);
+}
+
+.buttons button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+    /* background-color: transparent; */
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.data1{
+    position: relative;
+}
+
+.del{
+    position: absolute;
+    right: 95%;
+  background-color: rgb(47, 47, 47);
+
+
+}
+
+.btn1{
+    background-color: green;
+    
+    
+}
+
+.btn2{
+    background-color: red;
+    
+}
+
+
+
